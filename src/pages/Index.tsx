@@ -43,6 +43,52 @@ const Index = () => {
               Меняете регион на Австралию. Играйте с 12 ночи до 4 ночи 3-4ч по МСК! На 1 персе захват кристаллов примерно после 3 ч и все готово
             </p>
           </div>
+
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border animate-fade-in hover:shadow-md transition-shadow" style={{animationDelay: '0.4s'}}>
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Халява</h2>
+            <div className="space-y-3">
+              <a 
+                href="https://clck.ru/3ADWxE" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                🤡 Клоун
+              </a>
+              <a 
+                href="https://clck.ru/3ADWxV" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                📌 Пин со спреем
+              </a>
+              <a 
+                href="https://clck.ru/3ADWxj" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                💰 100 монет
+              </a>
+              <a 
+                href="https://clck.ru/3ADWyh" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                ⬛ Чёрно белый
+              </a>
+              <a 
+                href="https://clck.ru/3ADWyy" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                🥚 Зеленое яйцо
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

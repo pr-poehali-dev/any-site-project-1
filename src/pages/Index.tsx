@@ -7,11 +7,28 @@ const Index = () => {
           <p className="text-xl text-muted-foreground">Это советы для БС</p>
         </div>
         
-        <div className="bg-card p-6 rounded-lg shadow-sm border border-border animate-fade-in hover:shadow-md transition-shadow">
-          <h2 className="text-2xl font-semibold mb-4 text-primary">Как апнуть про ранг против ботов?</h2>
-          <p className="text-card-foreground leading-relaxed">
-            Вы должны слить всех персов на 0 кубков и после этого будет изичненые типы попадаться
-          </p>
+        <div className="space-y-6">
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border animate-fade-in hover:shadow-md transition-shadow">
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Как апнуть про ранг против ботов?</h2>
+            <p className="text-card-foreground leading-relaxed">
+              Вы должны слить всех персов на 0 кубков и после этого будет изичненые типы попадаться
+            </p>
+          </div>
+
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border animate-fade-in hover:shadow-md transition-shadow" style={{animationDelay: '0.1s'}}>
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Сделать свои пины</h2>
+            <p className="text-card-foreground leading-relaxed mb-4">
+              Создавайте собственные пины для игры
+            </p>
+            <a 
+              href="https://pinmaker.supercell.com/en" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
+            >
+              Перейти к созданию пинов
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -89,6 +89,36 @@ const Index = () => {
               </a>
             </div>
           </div>
+
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border animate-fade-in hover:shadow-md transition-shadow" style={{animationDelay: '0.5s'}}>
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Иконки</h2>
+            <div className="space-y-3">
+              <a 
+                href="https://link.brawlstars.com/ru/?action=voucher&code=3484c6d2-9ab5-4eae-878a-4a186fc4e24a" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                🎨 Иконка 1
+              </a>
+              <a 
+                href="https://link.brawlstars.com/ru/?action=voucher&code=ab9cf7c2-45f8-4012-ad38-dfe8b1747c3b" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                🎨 Иконка 2
+              </a>
+              <a 
+                href="https://link.brawlstars.com/ru/?action=voucher&code=91eead0b-0917-4077-8efe-6b852c7e49a3" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block px-4 py-2 bg-secondary text-secondary-foreground rounded-lg hover:bg-secondary/80 transition-colors"
+              >
+                🎨 Иконка 3
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

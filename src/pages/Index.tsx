@@ -29,6 +29,13 @@ const Index = () => {
               Перейти к созданию пинов
             </a>
           </div>
+
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border animate-fade-in hover:shadow-md transition-shadow" style={{animationDelay: '0.2s'}}>
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Как фармить победы 3 на 3</h2>
+            <p className="text-card-foreground leading-relaxed">
+              Это просто просто нужно скачать автокликер запустить его зайти в игру и настроить расположение автоклера на играть и кнопку стрельбы и все
+            </p>
+          </div>
         </div>
       </div>
     </div>

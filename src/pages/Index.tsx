@@ -36,6 +36,13 @@ const Index = () => {
               Это просто просто нужно скачать автокликер запустить его зайти в игру и настроить расположение автоклера на играть и кнопку стрельбы и все
             </p>
           </div>
+
+          <div className="bg-card p-6 rounded-lg shadow-sm border border-border animate-fade-in hover:shadow-md transition-shadow" style={{animationDelay: '0.3s'}}>
+            <h2 className="text-2xl font-semibold mb-4 text-primary">Как сделать анскилов до 2к?</h2>
+            <p className="text-card-foreground leading-relaxed">
+              Меняете регион на Австралию. Играйте с 12 ночи до 4 ночи 3-4ч по МСК! На 1 персе захват кристаллов примерно после 3 ч и все готово
+            </p>
+          </div>
         </div>
       </div>
     </div>
